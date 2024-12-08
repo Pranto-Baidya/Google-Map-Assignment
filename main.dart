@@ -126,7 +126,7 @@ class _HomePageState extends State<HomePage> {
       ),
       body: GoogleMap(
         initialCameraPosition: CameraPosition(
-          target: LatLng(0,0), // Placeholder: San Francisco
+          target: LatLng(0,0), 
           zoom: 15,
         ),
         onMapCreated: (controller) => _mapController = controller,
